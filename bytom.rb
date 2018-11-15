@@ -4,7 +4,7 @@ class Bytom < Formula
     url 'https://github.com/bytom/bytom.git', :tag => 'v1.0.6rc1'
 
     devel do
-      url 'https://github.com/bytom/bytom.git', :branch => 'dev'
+      url 'https://github.com/bytom/bytom.git', :branch => 'master'
     end
   
     # Require El Capitan at least
