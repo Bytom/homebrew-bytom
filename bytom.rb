@@ -3,7 +3,7 @@ class Bytom < Formula
     homepage 'https://bytom.io/'
     url 'https://github.com/bytom/bytom.git', :tag => 'v1.0.6rc1'
   
-    dev do
+    devel do
       url 'https://github.com/ethereum/bytom.git', :branch => 'dev'
     end
   
