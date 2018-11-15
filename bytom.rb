@@ -23,4 +23,8 @@ class Bytom < Formula
       bin.install 'cmd/bytomd/bytomd'
       bin.install 'cmd/bytomd/bytomd'
     end
+
+    test do
+        system "bytomcli", "version"
+    end
   end
