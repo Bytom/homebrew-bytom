@@ -16,7 +16,7 @@ class Bytom < Formula
     depends_on 'go' => :build
   
     def install
-      ENV["GOROOT"] = "#{HOMEBREW_PREFIX}/opt/go/libexec"
+    #   ENV["GOROOT"] = "#{HOMEBREW_PREFIX}/opt/go/libexec"
       system "go", "env" # Debug env
       system "make", "bytomd"
       system "make", "bytomcli"
