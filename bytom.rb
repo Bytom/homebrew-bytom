@@ -2,7 +2,7 @@ class Bytom < Formula
     desc "A digital asset layer protocol is the infrastructure of asset Internet."
     homepage 'https://bytom.io/'
     url 'https://github.com/bytom/bytom.git', :tag => 'v1.0.6rc1'
-  
+
     devel do
       url 'https://github.com/bytom/bytom.git', :branch => 'dev'
     end
@@ -21,7 +21,7 @@ class Bytom < Formula
       system "make", "bytomd"
       system "make", "bytomcli"
       bin.install 'cmd/bytomd/bytomd'
-      bin.install 'cmd/bytomd/bytomd'
+      bin.install 'cmd/bytomd/bytomcli'
     end
 
     test do
