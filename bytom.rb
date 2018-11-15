@@ -27,4 +27,4 @@ class Bytom < Formula
     test do
         system "bytomcli", "version"
     end
-  end
+end
