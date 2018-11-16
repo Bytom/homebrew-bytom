@@ -9,8 +9,6 @@ class Bytom < Formula
         system 'mv bytomcli-darwin_amd64 bytomcli'
         bin.install "bytomd"
         bin.install "bytomcli"
-        # bin.install "bytomd-darwin_amd64"
-        # bin.install "bytomcli-darwin_amd64"
     end
   
     test do
