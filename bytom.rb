@@ -5,8 +5,12 @@ class Bytom < Formula
     sha256 "bd4abc64860a05b5dd30b0d1579b3c9d58f3179532a9c154f9ac83364fb88699"
   
     def install
-      bin.install "bytomd-darwin_amd64"
-      bin.install "bytomcli-darwin_amd64"
+        system 'mv bytomd-darwin_amd64 bytomd'
+        system 'mv bytomcli-darwin_amd64 bytomcli'
+        bin.install "bytomd"
+        bin.install "bytomcli"
+        # bin.install "bytomd-darwin_amd64"
+        # bin.install "bytomcli-darwin_amd64"
     end
   
     test do
