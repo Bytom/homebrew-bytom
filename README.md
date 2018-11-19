@@ -19,6 +19,12 @@ or:
 bytomcli -h
 ```
 
+## Get binary sha256
+
+```
+openssl sha256 <filename>
+```
+
 ## Documentation
 
 See the documentation for more instructions:
