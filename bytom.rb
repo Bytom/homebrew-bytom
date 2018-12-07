@@ -1,9 +1,9 @@
 class Bytom < Formula
     desc "Official Go implementation of the Bytom protocol "
     homepage "https://bytom.io/"
-    url "https://github.com/Bytom/bytom/releases/download/v1.0.7/bytom-1.0.7-darwin_amd64.tgz"
-    version "1.0.7"
-    sha256 "25dd62343157fe6eb7a983edb1455f457cfca07552f02e1f9142227bd961a4a5"
+    url "https://github.com/Bytom/bytom/releases/download/v1.0.7-hotfix-a7c4f24/bytom-1.0.7-hotfix-a7c4f24-darwin_amd64.tgz"
+    version "1.0.7-hotfix-a7c4f24"
+    sha256 "a000f4c37e1fa1630c92227a1b7edd3575a19c357d9bbb5052a548f9e31cd6b3"
   
     def install
         system 'mv bytomd-darwin_amd64 bytomd'
